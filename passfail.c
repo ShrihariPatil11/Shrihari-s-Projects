@@ -2,11 +2,11 @@
 int main()
 {
 int num;
-printf("Enter Your Marks");
+printf("Enter Your Marks:");
 scanf("%d",&num);
-if(num> 40)
-printf("PASS");
+if(num>=40)
+printf("PASS \n" );
 else
-printf("FAIL");
+printf("FAIL \n");
 return 0;
 }
